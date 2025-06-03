@@ -1,0 +1,2135 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "0edc1eaa-ec9f-4be9-9724-da1cae4e9047")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:Battery"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "BT"
+				(at 2.54 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Battery"
+				(at 2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 1.524 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 1.524 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Multiple-cell battery"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "batt voltage-source cell"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Battery_0_1"
+				(rectangle
+					(start -2.286 1.778)
+					(end 2.286 1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -2.286 -1.27)
+					(end 2.286 -1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.524 1.016)
+					(end 1.524 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.524 -2.032)
+					(end 1.524 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.508) (xy 0 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.016) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 3.048) (xy 1.778 3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.556) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Battery_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C_Polarized"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_BJT:BC547"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BC547"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "NPN Transistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?92*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BC547_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BC547_1_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 105.41 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23699030-1543-4061-bfd2-e41ee3de4a11")
+	)
+	(junction
+		(at 123.19 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23f75d10-f9f9-437c-8440-8d838f47c71c")
+	)
+	(junction
+		(at 113.03 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ba1840e-6cc4-4c09-9d06-f73c40bed94f")
+	)
+	(junction
+		(at 101.6 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6b1226d-5bb6-46dc-842e-6ebd35d6a0d7")
+	)
+	(junction
+		(at 125.73 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc0db8fe-6c25-4904-9624-3465db075548")
+	)
+	(junction
+		(at 110.49 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd715f91-2396-4523-ab05-85cbe39c1be8")
+	)
+	(junction
+		(at 87.63 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d926b19e-c7b0-4669-af45-fd7e03928e8c")
+	)
+	(junction
+		(at 123.19 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef143d18-763a-45aa-b837-97233a2aabc0")
+	)
+	(wire
+		(pts
+			(xy 87.63 58.42) (xy 87.63 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bc9cae9-4743-4fd3-a400-10c090ec7ddc")
+	)
+	(wire
+		(pts
+			(xy 101.6 55.88) (xy 101.6 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bf26bf6-55cc-402c-a6c1-9911820f1cfb")
+	)
+	(wire
+		(pts
+			(xy 101.6 66.04) (xy 101.6 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b594fc6-0553-46ed-ae1b-e760c3883928")
+	)
+	(wire
+		(pts
+			(xy 111.76 97.79) (xy 111.76 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "235215ea-3913-4150-8ebf-a95149b8a0ae")
+	)
+	(wire
+		(pts
+			(xy 87.63 81.28) (xy 87.63 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cd9f46a-299b-431f-a663-b1a78f6e7fd1")
+	)
+	(wire
+		(pts
+			(xy 102.87 97.79) (xy 107.95 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34fd4a56-1011-44d1-a85e-d88ead99871c")
+	)
+	(wire
+		(pts
+			(xy 113.03 95.25) (xy 110.49 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a479065-a6f8-41b7-b2e1-89f822bbd502")
+	)
+	(wire
+		(pts
+			(xy 102.87 114.3) (xy 102.87 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40625711-87a5-41ba-af34-48c74106acae")
+	)
+	(wire
+		(pts
+			(xy 135.89 91.44) (xy 135.89 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41b24ed0-c720-42da-ab5b-ff797a3a1263")
+	)
+	(wire
+		(pts
+			(xy 125.73 66.04) (xy 125.73 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43427b57-a825-4182-87f9-858d8d2c9af0")
+	)
+	(wire
+		(pts
+			(xy 111.76 114.3) (xy 105.41 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a950332-ac45-4fd9-906f-092333ef39d7")
+	)
+	(wire
+		(pts
+			(xy 95.25 120.65) (xy 95.25 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "561bc6e3-afeb-4b3d-bee8-83f257caf8e1")
+	)
+	(wire
+		(pts
+			(xy 110.49 95.25) (xy 110.49 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e48a2cb-a13a-46e0-b29b-39a5c7e32b8e")
+	)
+	(wire
+		(pts
+			(xy 135.89 125.73) (xy 123.19 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62abf55d-383e-4d97-8400-1092a47873ca")
+	)
+	(wire
+		(pts
+			(xy 87.63 66.04) (xy 87.63 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67e8ce5f-d29c-439f-b178-f08f31be2c62")
+	)
+	(wire
+		(pts
+			(xy 113.03 66.04) (xy 113.03 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69ab05dc-039e-493c-8857-6cd39f2933ef")
+	)
+	(wire
+		(pts
+			(xy 101.6 110.49) (xy 105.41 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ed66cf0-20ac-4aad-bd18-721eac7e12c3")
+	)
+	(wire
+		(pts
+			(xy 107.95 97.79) (xy 107.95 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70736416-a461-4e82-b9cb-72e04f683956")
+	)
+	(wire
+		(pts
+			(xy 105.41 114.3) (xy 102.87 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "721488b9-17a4-4d74-ae09-3d39ea2eb3a3")
+	)
+	(wire
+		(pts
+			(xy 125.73 55.88) (xy 125.73 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78c00b96-4d17-4243-8bad-7cd50c1a17ac")
+	)
+	(wire
+		(pts
+			(xy 107.95 115.57) (xy 110.49 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "854d78d8-7f23-404d-8f07-b8431450b076")
+	)
+	(wire
+		(pts
+			(xy 95.25 110.49) (xy 87.63 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e7fe9da-d1d0-4a90-9747-40559ab3d267")
+	)
+	(wire
+		(pts
+			(xy 87.63 55.88) (xy 101.6 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91024d8b-bda1-4678-8bad-872670f4a31e")
+	)
+	(wire
+		(pts
+			(xy 87.63 110.49) (xy 87.63 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9819e338-b3f0-4048-a39f-a023a517daf9")
+	)
+	(wire
+		(pts
+			(xy 125.73 55.88) (xy 135.89 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98a83ded-713d-4c46-8c1a-822586760bad")
+	)
+	(wire
+		(pts
+			(xy 125.73 97.79) (xy 125.73 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c066b2b-bcea-4fd3-8599-0edc1ee09e8f")
+	)
+	(wire
+		(pts
+			(xy 113.03 55.88) (xy 125.73 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a93ee92e-a9d1-48ea-9f55-fdf5a20af941")
+	)
+	(wire
+		(pts
+			(xy 101.6 55.88) (xy 113.03 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b17f5d91-7ecf-4af9-8d64-6f5fa8b3c2bc")
+	)
+	(wire
+		(pts
+			(xy 105.41 110.49) (xy 105.41 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5e49adf-5903-401d-aa28-e56e3ffd41d0")
+	)
+	(wire
+		(pts
+			(xy 123.19 110.49) (xy 123.19 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b908dfb7-fc8a-4e8b-a6b3-8256b234e4d7")
+	)
+	(wire
+		(pts
+			(xy 135.89 55.88) (xy 135.89 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0fbfeb3-2783-4c95-bf81-73fd778dd13c")
+	)
+	(wire
+		(pts
+			(xy 123.19 125.73) (xy 123.19 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd7724e4-84bc-4186-8683-3507dfaac35c")
+	)
+	(wire
+		(pts
+			(xy 87.63 97.79) (xy 95.25 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfe24145-4335-47b0-805d-c42c1af1c3e3")
+	)
+	(wire
+		(pts
+			(xy 123.19 97.79) (xy 125.73 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea1b5f45-769d-449d-9dc2-1c69a2c433ad")
+	)
+	(wire
+		(pts
+			(xy 113.03 55.88) (xy 113.03 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed65a384-1de1-4597-86fc-03985a9262e7")
+	)
+	(wire
+		(pts
+			(xy 123.19 125.73) (xy 95.25 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed932afb-83f7-49df-9e49-3ee2a7d9d798")
+	)
+	(wire
+		(pts
+			(xy 110.49 115.57) (xy 115.57 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5225d79-ff0b-4527-ac94-b05f82b25255")
+	)
+	(wire
+		(pts
+			(xy 119.38 97.79) (xy 123.19 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6e2947c-29f3-4891-a403-54a0edc96ef5")
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 87.63 77.47 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0907b52e-8df6-455d-b990-377354e364a3")
+		(property "Reference" "D1"
+			(at 90.17 74.6124 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED"
+			(at 90.17 77.1524 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D3.0mm"
+			(at 87.63 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 87.63 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 87.63 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a09a4227-c368-420a-8776-e301ef328df9")
+		)
+		(pin "2"
+			(uuid "047d920f-6be9-45b9-a615-73d03b0eedfd")
+		)
+		(instances
+			(project ""
+				(path "/0edc1eaa-ec9f-4be9-9724-da1cae4e9047"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery")
+		(at 135.89 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a6b374a-abfa-4793-98ca-1884d01a12f9")
+		(property "Reference" "BT1"
+			(at 139.7 84.5184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "9V"
+			(at 139.7 87.0584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Horizontal"
+			(at 135.89 84.836 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 84.836 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multiple-cell battery"
+			(at 135.89 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb789e24-c28e-4494-9a51-055b75f88aae")
+		)
+		(pin "2"
+			(uuid "c8a0c645-9436-46f4-a5f5-eb259faac42f")
+		)
+		(instances
+			(project ""
+				(path "/0edc1eaa-ec9f-4be9-9724-da1cae4e9047"
+					(reference "BT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 125.73 77.47 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1ffb0592-9790-43e2-b539-68dc7071b541")
+		(property "Reference" "D2"
+			(at 128.27 74.6124 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED"
+			(at 128.27 77.1524 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D3.0mm"
+			(at 125.73 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 125.73 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 125.73 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "668ab421-0602-4fb6-9154-24e405ab174f")
+		)
+		(pin "2"
+			(uuid "e12fd475-4ceb-4086-a64b-5595e6535925")
+		)
+		(instances
+			(project ""
+				(path "/0edc1eaa-ec9f-4be9-9724-da1cae4e9047"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC547")
+		(at 97.79 115.57 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3bde5475-8f48-4160-a24d-9c0f2f631b9f")
+		(property "Reference" "Q1"
+			(at 92.71 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC547"
+			(at 92.71 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 92.71 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
+			(at 97.79 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"
+			(at 97.79 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "983e935b-ab2b-4724-8e5e-5e9179ff0c87")
+		)
+		(pin "1"
+			(uuid "c5923f72-b62e-48a9-97b2-9f6f646d4cb4")
+		)
+		(pin "2"
+			(uuid "a7f8c730-3e77-4bdc-a452-bd3300be4d3a")
+		)
+		(instances
+			(project ""
+				(path "/0edc1eaa-ec9f-4be9-9724-da1cae4e9047"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 113.03 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42a4f70d-273a-4643-9b3f-3549a24b6dd8")
+		(property "Reference" "R3"
+			(at 115.57 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 115.57 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+			(at 111.252 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 113.03 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b1abedfb-c32e-487c-ad89-91283378e6fb")
+		)
+		(pin "1"
+			(uuid "ed27e494-40db-4131-9c83-38e790f03d14")
+		)
+		(instances
+			(project "Flip Flop Circuit"
+				(path "/0edc1eaa-ec9f-4be9-9724-da1cae4e9047"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 115.57 97.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46a70912-c199-4e89-adb0-3e3ec189a3e1")
+		(property "Reference" "C2"
+			(at 116.459 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100u"
+			(at 116.459 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W5.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
+			(at 111.76 98.7552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 115.57 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "feae26f7-26fb-4b95-9cad-0c43abf2f560")
+		)
+		(pin "1"
+			(uuid "25b70df7-3e2f-4df4-af2e-d0b79157b162")
+		)
+		(instances
+			(project ""
+				(path "/0edc1eaa-ec9f-4be9-9724-da1cae4e9047"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC547")
+		(at 120.65 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49e5a3a7-48f4-46dd-8581-9a59464d83e1")
+		(property "Reference" "Q2"
+			(at 125.73 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC547"
+			(at 125.73 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 125.73 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
+			(at 120.65 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"
+			(at 120.65 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e23aa9c5-1592-43fe-9164-36391032b650")
+		)
+		(pin "1"
+			(uuid "222850d1-6bef-43ca-b7d2-434a71df469e")
+		)
+		(pin "2"
+			(uuid "fca01883-8f20-4d47-98fa-3cbf0fff7d49")
+		)
+		(instances
+			(project "Flip Flop Circuit"
+				(path "/0edc1eaa-ec9f-4be9-9724-da1cae4e9047"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 87.63 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ba79bad-d06c-40f5-a373-16c10b86678a")
+		(property "Reference" "R1"
+			(at 90.17 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470"
+			(at 90.17 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+			(at 85.852 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 87.63 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4dde9c0f-cf75-47d4-9fa2-366bd05c76c3")
+		)
+		(pin "1"
+			(uuid "977d8a8a-dba3-424e-9326-3ef8dd9d9642")
+		)
+		(instances
+			(project ""
+				(path "/0edc1eaa-ec9f-4be9-9724-da1cae4e9047"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 99.06 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c24a817-0ab8-4736-9fb5-67beef1c4e0f")
+		(property "Reference" "C1"
+			(at 98.171 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100u"
+			(at 98.171 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P12.50mm_Horizontal"
+			(at 102.87 96.8248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 99.06 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b9b0330-c814-4b45-9f80-fba9f182378a")
+		)
+		(pin "2"
+			(uuid "b6458eaa-ed4f-47f8-b735-a72806cbf2ef")
+		)
+		(instances
+			(project ""
+				(path "/0edc1eaa-ec9f-4be9-9724-da1cae4e9047"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 101.6 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0cae98d-1fdd-4f52-a795-399cc4466317")
+		(property "Reference" "R2"
+			(at 104.14 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 104.14 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+			(at 99.822 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 101.6 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "38c71e6c-2e59-49dc-968e-b99e6653c349")
+		)
+		(pin "1"
+			(uuid "3845d66b-5324-4fe3-8d62-e1d545e27a68")
+		)
+		(instances
+			(project ""
+				(path "/0edc1eaa-ec9f-4be9-9724-da1cae4e9047"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 125.73 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f432e8cf-a186-46e1-bfe5-e0facd4e079a")
+		(property "Reference" "R4"
+			(at 128.27 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470"
+			(at 128.27 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+			(at 123.952 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 125.73 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fbaadb2a-f01f-4b0c-9534-8deba4993dd8")
+		)
+		(pin "1"
+			(uuid "2d36c719-cd19-47f3-a62f-e2ff16fdc74e")
+		)
+		(instances
+			(project "Flip Flop Circuit"
+				(path "/0edc1eaa-ec9f-4be9-9724-da1cae4e9047"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
